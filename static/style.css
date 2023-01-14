@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+/* Css Reset */
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+/* Chotanavbar Styling */
+#navbar {
+    background-color: rgb(15, 15, 15);
+}
+
+#Chotanavbar {
+    max-width: 900px;
+    border-bottom: 1px solid grey;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Chotanavbar ul {
+    display: flex;
+}
+
+#_meme_button_1 {
+    text-decoration: none;
+    list-style: none;
+    font-size: 21px;
+    margin: 0 34px;
+    font-family: 'Lilita One', cursive !important;
+    font-weight: lighter;
+    color: white;
+}
+
+#Chotanavbar ul span:hover {
+    color: rgb(46, 46, 253);
+    cursor: pointer;
+
+}
+
+
+#Chotanavbar ul a li {
+    list-style: none;
+}
+
+#logo img {
+    height: 50px;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo span {
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+
+.fonts {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Main Body Styling */
+#mainbody {
+    background-color: rgb(15, 15, 15);
+}
+
+/* Meme Body Styling */
+#memeBody {
+    margin: auto;
+    overflow: hidden;
+    max-width: 30em;
+    /* margin-top: 50px; */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+#_meme_title {
+    font-size: 15px;
+    color: rgb(233, 233, 233);
+    padding: 5px;
+    font-weight: light;
+    border-radius: 4%;
+    width: 100%;
+    padding-left: 18px;
+    margin-top: 40px;
+}
+
+#_meme_image {
+    max-width: 100%;
+    border-radius: 2%;
+    margin: 0 10px 60px 10px;
+
+
+}
+#_meme_button_2{
+    opacity: 70%;
+    border-radius: 63%;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 46px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border:none;
+    background-color: black;
+    font-size: 15px;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+}
+#_meme_button_2:hover{
+    opacity :100%;
+    color: black;
+    background-color: white;
+}
